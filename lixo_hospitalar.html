@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png">
+    <title>lixo  Hospitalar</title>
+    <link rel="stylesheet" href="lixo_hospitalar.css">
+    <script src="https://kit.fontawesome.com/6bda94a8de.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <!--order 1-->
+        <div class="logos">
+            <img class="logoBgWhite" src="logo.png" alt="">
+            <img class="logoBgBlack" src="logo2.png" alt="">
+        </div>
+
+        <!--order 2-->
+        <nav id="menu">
+            <ul id="imenu-list" class="menu-list">
+                <li><a href="/pag_ind/lixo_verde.html">Sobre nós</a></li>
+                <li><a href="/curiosidades/curiosidades.html">Curiosidades</a></li>
+                <li><a href="#">Campanhas</a></li>
+            </ul>
+            <script>
+
+                var menuButton = document.getElementById("menu-btn");
+                var menu = document.getElementById("menu");
+
+                menu.style.transition("2s");
+
+                function showmenu() {
+                    if (menu.style.display === "none") {
+                        menu.style.display = "block";
+                    } else {
+                        menu.style.display = "none";
+                    }
+                };
+
+            </script>
+        </nav>
+
+        <!--order 3-->
+        <div class="dark_btn">
+            <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+            <label for="toggle" class="toggle-label" id="change">
+                <i id="sun" class="fa-solid fa-cloud-sun"></i>
+                <i id="moon" class="fa-solid fa-moon"></i>
+            </label>
+
+            <script>
+                const toggleBtn = document.getElementById('toggle');
+                const body = document.body;
+
+                toggleBtn.addEventListener('click', function () {
+                    body.classList.toggle('dark')
+                });
+            </script>
+        </div>
+
+        <!--order 4-->
+        <button onclick="showmenu()" id="menu-btn"><i class="fa-solid fa-water"></i></button>
+    </header>
+
+   
+    <main id="top">
+
+        <div class="text12">
+            <h2>Lixo Hospitalar: O que caracteriza esse tipo de resíduo?</h2>
+            <div class="text1">
+                <img src="hospital.jpg" alt="" height="200px" width="350">
+
+                <p><strong>O lixo Hospitalar</strong>O lixo hospitalar é uma mistura diversificada de materiais, que inclui desde resíduos biológicos, como sangue e tecidos, até materiais químicos, como medicamentos vencidos e produtos químicos de limpeza, além de objetos perfurocortantes e equipamentos médicos descartados. Devido à sua natureza variada e potencialmente perigosa, o manejo e descarte inadequados do lixo hospitalar podem representar sérios riscos para a saúde pública e o meio ambiente.
+                </p>
+                <div class="eletronico">
+                    <p>Nos bastidores dos hospitais, uma questão crítica e muitas vezes negligenciada demanda atenção: o lixo hospitalar. Gerado diariamente em instituições de saúde em todo o mundo, o lixo hospitalar é uma categoria especial de resíduos que requer tratamento cuidadoso e protocolos rigorosos de descarte.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="video1">
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/00K4pnobsxs?si=cRd45Cn-Cn7A1wEy"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+
+
+            <h2>Qual a importância de descartar o lixo Hospitalar de maneira correta?</h2>
+            <div class="text2">
+                <div class="text4">
+                    <p>
+                        Para lidar com esse desafio, os hospitais devem adotar procedimentos estritos para a segregação, armazenamento e eliminação segura do lixo hospitalar. Isso inclui a separação dos diferentes tipos de resíduos em recipientes adequados, como caixas de papelão para resíduos comuns, recipientes rígidos para materiais perfurocortantes e contentores especiais para resíduos químicos e biológicos.
+
+
+                    </p>
+
+                </div>
+                <div class="text3">
+
+                    <p>
+                        Além disso, é essencial que os hospitais trabalhem em estreita colaboração com empresas especializadas em gerenciamento de resíduos para garantir que o lixo hospitalar seja coletado, transportado e tratado de acordo com as regulamentações locais e padrões de segurança. Isso pode incluir a esterilização, incineração ou tratamento químico dos resíduos, dependendo de sua natureza e potencial de contaminação.
+                        A conscientização e a educação também desempenham um papel fundamental na gestão adequada do lixo hospitalar. 
+                        
+                    </p>
+
+                    <img src="lixohospi.jpg" width="350px" height="200px" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+     
+<!-- <footer> -->
+    <footer>
+        <img src="logo_preto.png" alt="" height="120px">
+        <hr>
+        <div class="tudo">
+            <div class="voltar">
+                <h3>Volte para:</h3>
+                <a href="">Home</a>
+            </div>
+
+            <div class="referencias">
+                <h3>Referências da Página:</h3>
+                <a href="">Referência um</a>
+                <a href="">Referência dois</a>
+                <a href="">Referência três</a>
+                <a href="">Referência Quatro</a>
+            </div>
+
+            <div class="links_rapidos">
+                <h3>Links Rápidos</h3>
+                <a href="">Siga nosso linktree</a>
+                <a href="/pag_ind/main.html">Sobre nós</a>
+                <a href="#">Curiosidades</a>
+                <a href="#">Campanhas</a>
+            </div>
+
+
+        </div>
+
+        <p>&copy;2024 Desenvolvido por Limpo Ambiente</p>
+    </footer>
+
+    
+</body>
+</html>
